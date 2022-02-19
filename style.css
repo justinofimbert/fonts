@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  background-color: hsl(22, 52%, 18%);
+  align-items: center;
+  padding: 0 12px 0 12px;
+}
+
+#title {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 36px;
+  color: blanchedalmond;
+}
+
+#options {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  color: blanchedalmond;
+}
+
+#main {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  align-items: center;
+}
+
+
+
+#Bebas-Neue {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#Gloria-Hallelujah {
+  font-family: 'Gloria Hallelujah', cursive;
+}
